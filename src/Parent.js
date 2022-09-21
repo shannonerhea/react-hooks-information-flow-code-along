@@ -10,6 +10,7 @@ function Parent() {
   function handleChangeColor() {
     const newRandomColor = getRandomColor();
     setColor(newRandomColor);
+    setChildrenColor(newChildColor);
   };
 
   return (
